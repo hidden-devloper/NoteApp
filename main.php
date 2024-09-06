@@ -4,7 +4,7 @@ $insert = false;
 $update = false;
 $delete = false;
 
-$conn = mysqli_connect("localhost", "root", "", "inotes");
+$conn = mysqli_connect("localhost", "root", "", "YOUR_DATABASE_NAME");
 
 if(!$conn){
     echo "not ". mysqli_connect_error();
